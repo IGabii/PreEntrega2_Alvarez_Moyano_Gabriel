@@ -8,7 +8,6 @@ body{
 .header-container{
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
 }
 
 .logo-container img{
@@ -24,5 +23,52 @@ body{
     padding:20px;
     text-decoration: none;
     color:#000
+}
+
+
+.titulo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../galeria/zapatilla2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.titulo-item{
+    color:#fff;
+    text-align: center;
+    text-shadow: 1px 1px 7px #000;
+    font-size: 40px;
+}
+
+.titulo-container h1,h2{
+    margin:0 
+}
+
+.seccion-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secciones-links{
+    padding: 10px 40px;
+    margin:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+}
+
+.secciones-links:hover{
+    background-color: #e0dcdc;
+}
+
+.secciones-calzadoImagen img{
+    width: 100px;
+}
+
+.secciones-calzadoTitulo{
+    text-align: center;
 }
 
