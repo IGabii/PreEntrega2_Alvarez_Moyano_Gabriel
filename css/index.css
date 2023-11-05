@@ -30,10 +30,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../galeria/zapatilla2.jpeg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    background-attachment: fixed;
+    height: 90vh;
 }
 
 .titulo-item{
@@ -41,16 +43,34 @@ body{
     text-align: center;
     text-shadow: 1px 1px 7px #000;
     font-size: 40px;
+    margin-bottom: 70px;
 }
 
 .titulo-container h1,h2{
     margin:0 
 }
 
+.descubre a{
+    text-decoration: none;
+    color:#000;
+}
+
+.descubre h2{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.descubre h2:hover{
+    background-color: #dad5d5;
+}
+
 .seccion-links{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .secciones-links{
