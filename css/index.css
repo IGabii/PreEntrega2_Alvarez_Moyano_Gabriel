@@ -92,3 +92,25 @@ body{
     text-align: center;
 }
 
+/*-------------------Quienes Somos-------------------------*/
+
+.quienesSomos-container{
+    display: grid;
+    grid-template-areas:
+    "quienesSomosTitulo quienesSomosTitulo"
+    "quienesSomostexto quienesSomosImg";
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+}
+
+.quienesSomos-titulo{
+    grid-area:quienesSomosTitulo
+}
+
+.quienesSomosTexto{
+    grid-area: quienesSomosTexto;
+}
+
+.quienesSomos-img{
+    grid-area: quienesSomosImg;
+}
