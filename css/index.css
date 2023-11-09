@@ -106,11 +106,15 @@ body{
     "quienesSomostexto quienesSomosImg";
     grid-template-columns: 1fr 1fr;
     padding: 50px;
-    background-color: #000;
+    background-color: #1a1e23;
     color:#fff;
     align-items: center;
     justify-content: center;
     clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+}
+
+.quienesSomos-container h2{
+    font-size: 40px;
 }
 
 .quienesSomos-container p{
@@ -131,4 +135,43 @@ body{
 .quienesSomos-img{
     grid-area: quienesSomosImg;
     text-align: center;
+}
+
+/*----------------------Footer--------------------------------*/
+
+.footer-container{
+    display: grid;
+    grid-template-areas:
+    "contactanos redesSociales";
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactanos{
+    grid-area:contactanos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+section{
+    padding: 10px 0;
+}
+
+
+.redesSociales{
+    grid-area: redesSociales;
+    display: flex;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+.whatsapp, .mail, .instagram, .linkedin{
+    padding: 20px;
 }
