@@ -25,6 +25,7 @@ body{
     color:#000
 }
 
+/*--------------body---------------------------*/
 
 .titulo-container{
     display: flex;
@@ -36,6 +37,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     height: 90vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 95%);
 }
 
 .titulo-item{
@@ -66,11 +68,14 @@ body{
     background-color: #dad5d5;
 }
 
+/*--------------------------------------------Seccions------------------------------*/
+
 .seccion-links{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 60px 0;
 }
 
 .secciones-links{
@@ -81,7 +86,7 @@ body{
 }
 
 .secciones-links:hover{
-    background-color: #e0dcdc;
+    background-color: #d1cdcd;
 }
 
 .secciones-calzadoImagen img{
@@ -100,17 +105,30 @@ body{
     "quienesSomosTitulo quienesSomosTitulo"
     "quienesSomostexto quienesSomosImg";
     grid-template-columns: 1fr 1fr;
-    margin: 50px;
+    padding: 50px;
+    background-color: #000;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+}
+
+.quienesSomos-container p{
+    font-size: 19px;
 }
 
 .quienesSomos-titulo{
-    grid-area:quienesSomosTitulo
+    grid-area:quienesSomosTitulo;
+    border-bottom:solid #fff;
+    text-align: center;
 }
 
 .quienesSomosTexto{
     grid-area: quienesSomosTexto;
+    text-align: justify;
 }
 
 .quienesSomos-img{
     grid-area: quienesSomosImg;
+    text-align: center;
 }
