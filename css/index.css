@@ -161,6 +161,10 @@ input{
     width: 400px;
 }
 
+input:focus{
+    background-color: #d1cdcd;
+}
+
 
 .redesSociales{
     grid-area: redesSociales;
