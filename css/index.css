@@ -100,12 +100,9 @@ body{
 /*-------------------Quienes Somos-------------------------*/
 
 .quienesSomos-container{
-    display: grid;
-    grid-template-areas:
-    "quienesSomosTitulo quienesSomosTitulo"
-    "quienesSomostexto quienesSomosImg";
-    grid-template-columns: 1fr 1fr;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
     background-color: #1a1e23;
     color:#fff;
     align-items: center;
@@ -122,19 +119,12 @@ body{
 }
 
 .quienesSomos-titulo{
-    grid-area:quienesSomosTitulo;
     border-bottom:solid #fff;
     text-align: center;
 }
 
 .quienesSomosTexto{
-    grid-area: quienesSomosTexto;
     text-align: justify;
-}
-
-.quienesSomos-img{
-    grid-area: quienesSomosImg;
-    text-align: center;
 }
 
 /*----------------------Footer--------------------------------*/
@@ -144,7 +134,7 @@ body{
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../galeria/zapatilla2.jpeg);
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../galeria/zapatilla2.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
