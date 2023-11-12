@@ -200,20 +200,20 @@ input:focus{
 /*-------Clasico---------------*/
 /*----------Clasico Body------------*/
 
-.tienda-clasicos-titulo h2{
+.tienda-clasicos-titulo h2,.tienda-urbano-titulo h2{
     text-align: center;
     padding-top: 30px;
 }
 
-.titulo-clasico-container{
+.titulo-clasico-container, .titulo-urbano-container{
     text-align: center;
 }
 
-.titulo-clasico-item{
+.titulo-clasico-item, .titulo-urbano-item{
     text-shadow: 1px 1px 1px #000;
 }
 
-.tienda-clasicos-container{
+.tienda-clasicos-container, .tienda-urbano-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -244,6 +244,9 @@ input:focus{
 button{
     border: solid #000 1px
 }
+
+/*-------Urbano---------------*/
+/*----------Urbano Body------------*/
 
 
 
