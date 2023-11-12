@@ -200,6 +200,11 @@ input:focus{
 /*-------Clasico---------------*/
 /*----------Clasico Body------------*/
 
+.tienda-clasicos-titulo h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
 .titulo-clasico-container{
     text-align: center;
 }
@@ -223,6 +228,9 @@ input:focus{
     height: 300px;
     margin:30px
 }
+.tienda-items:hover{
+    box-shadow: 0 0 40px #000;
+}
 
 .img-items img{
     width: 100%;
@@ -231,6 +239,10 @@ input:focus{
 .titulo-items h3{
     font-size: 20px;
     margin:30px 0
+}
+
+button{
+    border: solid #000 1px
 }
 
 
