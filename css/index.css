@@ -195,3 +195,21 @@ input:focus{
     height: 80%;
 }
 
+
+
+/*-------Clasico---------------*/
+/*----------Clasico Body------------*/
+
+.titulo-clasico-container{
+    text-align: center;
+}
+
+.titulo-clasico-item{
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+
+
+
+
