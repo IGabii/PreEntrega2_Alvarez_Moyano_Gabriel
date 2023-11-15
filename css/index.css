@@ -32,7 +32,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../galeria/zapatilla2.jpeg);
+    background-image: url(../galeria/zapatilla2.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -134,7 +134,7 @@ body{
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../galeria/zapatilla2.jpeg);
+    background-image: url(../galeria/zapatilla2.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -167,7 +167,6 @@ input:focus{
 
 
 .redesSociales{
-    grid-area: redesSociales;
     display: flex;
     flex-direction: column;
 }
@@ -186,7 +185,6 @@ input:focus{
 }
 
 .logoFooter{
-    grid-area: logoFooter;
     display: flex;
 }
 
@@ -246,9 +244,72 @@ button{
     border: solid #000 1px
 }
 
-/*-------Urbano---------------*/
-/*----------Urbano Body------------*/
+/*Responsive*/
 
+@media only screen and (max-width:1014px){
+    .logoFooter img{
+        width: 360px;
+    }
+
+    input{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:1014px){
+    input{
+        width: 200px;
+    }
+
+    .icon{
+        width: 22px;
+        height: 22px;
+    }
+
+    .contactanos{
+        padding:0;
+    }
+
+    .tienda-clasicos-container, .tienda-urbano-container, .tienda-deportivo-container, .tienda-elegante-container{
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (max-width:670px){
+    .whatsapp, .mail, .instagram, .linkedin{
+        padding: 7px;
+    }
+
+    .logoFooter img{
+        width: 260px;
+    }
+
+    .links-container a{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .logo-container img{
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width:515px){
+    .logo-container img{
+        width: 150px;
+    }
+
+    .links-container a{
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .logoFooter img{
+        width: 200px;
+    }
+}
 
 
 
