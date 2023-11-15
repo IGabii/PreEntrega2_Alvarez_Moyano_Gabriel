@@ -307,7 +307,11 @@ button{
     }
 
     .logoFooter img{
-        width: 200px;
+        width: 170px;
+    }
+
+    input{
+        width: 180px;
     }
 }
 
